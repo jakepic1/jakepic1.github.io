@@ -1,3 +1,2 @@
-# Welcome
-
-Welcome to my domain.
+# Writings
+* [Advice for new software engineers](engineer_advice.md)
