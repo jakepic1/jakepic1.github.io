@@ -1,4 +1,5 @@
 # Writings
+* [Designing a system for designing systems](designing_systems.md)
 * [Advice for new software engineers](engineer_advice.md)
 
 
