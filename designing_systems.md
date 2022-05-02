@@ -2,7 +2,7 @@
 
 _April 2022_
 
-“Software architecture” is an odd term, because “architecture” implies that you’re building something inorganic, like a skyscraper. But as Fred Brooks [observed](https://en.wikipedia.org/wiki/No_Silver_Bullet) in 1986, the best software systems aren’t _built_ so much as they’re _grown_. He recommended rapid prototyping to refine the requirements, then a certain amount of design to get the boundaries right, and filling in the implementation using incremental development. His argument was that software is too complex to specify every detail from the start.
+“Software architecture” is an odd term, because it implies that you’re building something inorganic, like a skyscraper. But as Fred Brooks [observed](https://en.wikipedia.org/wiki/No_Silver_Bullet) in 1986, the best software systems aren’t _built_ so much as they’re _grown_. He recommended rapid prototyping to refine the requirements, then a certain amount of design to get the boundaries right, and filling in the implementation using incremental development. His argument was that software is too complex to specify every detail from the start.
 
 This was true in Brooks’ day, and it’s even more true now. In a startup, or even a new project at a big company, you never have all the information. You may have an idea of what the product needs to do initially, and an even more vague idea of what it needs to do in the future. But without knowing every future product requirement, it’s impossible to avoid some amount of incremental development, so you might as well embrace it. And even if you know _exactly_ what the software needs to do, it’s incredibly difficult to architect any non-trivial system ahead of time.
 
@@ -31,7 +31,7 @@ Engineering leadership should also have some understanding of system design. The
 As a byproduct of Conway’s Law, the product’s user interface will _also_ map to the organizational structure. This means engineering leaders depend on the product team, just as the individual engineers within a team have to work closely with their PM. This is unavoidable: if you’re making software to fulfill a product need, you’re going to have to model the software-making system after the needs of the product too.
 
 ## Organizing
-This is all so complicated, and it’s complicated because _people_ are complicated: distributed systems are even more complex when they’re made of humans. People have to communicate to work together. The more people and teams there are, the more communication is required, and the more complex the resulting software will be.
+This is all so complicated, and it’s complicated because _people_ are complicated. People have to communicate to work together. The more people and teams there are, the more communication is required, and the more complex the resulting software will be.
 
 It’s no wonder software development at big companies tends to slow to a crawl. There seems to be a tension here. Software products inherently have massive economies of scale: if you can make a product that millions of people want, the marginal cost to get it to them is incredibly cheap. But software _development_, the process of making software, often has diseconomies of scale. The larger the company gets, the more slowly it writes code.
 
